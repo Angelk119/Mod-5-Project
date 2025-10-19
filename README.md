@@ -50,13 +50,27 @@ How can LinkNYC use data-driven insights to expand kiosks in underserved areas, 
 
 ## 5. Feature Engineering
 
+## 5. Feature Engineering
+
+### Essential Features
+
 | Feature | Formula | Rationale |
-|----------|----------|-----------|
-| **Total TB** | `TB Downloaded + TB Uploaded` | Measures full data volume for engagement tracking. |
-| **Heavy Usage Week** | `gb_per_session ≥ 75th percentile` | Identifies weeks of above-average engagement. |
-| **Activation Wait** | `Activation Date – Installation Date` | Quantifies deployment efficiency by borough. |
-| **Summer Months** | Boolean (June–Aug) | Captures seasonal activity peaks. |
-| **Low Users / Long Session** | Composite binary feature | Detects kiosks with deep but sparse use (potential underserved areas). |
+|--------|---------|-----------|
+| **Total TB** | `TB Downloaded + TB Uploaded` | Captures the total volume of data usage per week to measure engagement. |
+| **Heavy Usage Week** | `True if session GB ≥ activation threshold` | Identifies weeks with unusually high engagement levels. |
+| **Low Users / Long Session** | `True if Low Users AND Long Session` | Flags kiosks with few users but long sessions—potential indicators of underserved areas. |
+| **Activation Wait** | `Activation Date - Installation Date` | Measures time lag in kiosk deployment, useful for borough-level analysis. |
+
+### Assisting Features
+
+| Feature | Formula | Rationale |
+|--------|---------|-----------|
+| **TB to GB** | `1 TB = 1024 GB` | Standardizes data units for consistency across features. |
+| **Long Session** | `True if avg. session length ≥ 25 minutes` | Identifies kiosks with unusually long user engagement. |
+| **Low Users** | `True if weekly users ≤ 250,000` | Highlights kiosks with relatively low foot traffic. |
+| **Zoning** | `3-letter zoning code (e.g. "R2A / C1-2")` | Describes the zoning classification where each kiosk is installed. |
+| **Summer Months** | `True if report week in June, July, or August` | Captures potential seasonal usage spikes. |
+
 
 ---
 
