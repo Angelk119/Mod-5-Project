@@ -43,8 +43,6 @@ How can LinkNYC use data-driven insights to expand kiosks in underserved areas, 
 |------|-------------|---------------|
 | **Activation Rate (Quality)** | % of weeks with GB/session ≥ 75th percentile (Z) | Captures meaningful digital engagement, not just volume. |
 | **Retention Rate (Weekly)** | % of users returning within 4 weeks | Measures loyalty and long-term impact of access. |
-| **Experience Quality** | Average GB/session | Proxy for connection depth and digital inclusion value. |
-| **Engagement Growth** | Δ GB/week or Δ Sessions/week | Tracks uptake and sustained usage across time. |
 
 ---
 
