@@ -63,6 +63,7 @@ How can LinkNYC use data-driven insights to expand kiosks in underserved areas, 
 ## 6. Funnel Analysis
 
 ### Funnel Steps
+
 1. **Step 1:** Base — Unique clients per month  
 2. **Step 2:** Sessions by new users  
 3. **Step 3:** Total GB transferred  
