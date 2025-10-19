@@ -82,6 +82,7 @@ How can LinkNYC use data-driven insights to expand kiosks in underserved areas, 
 - Later cohorts (post-activation) show higher **average GB/session**, suggesting improving adoption over time.  
 - Retention measured via “heavy usage” recurrence at 1-week and 4-week intervals.  
 - Cohort heatmaps show gradual improvement in engagement depth rather than pure user count.
+<img width="630" height="342" alt="Screenshot 2025-10-19 at 1 45 03 PM" src="https://github.com/user-attachments/assets/d2e1da75-f003-4849-a7ab-21db7191e314" />
 
 ---
 
