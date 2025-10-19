@@ -50,8 +50,6 @@ How can LinkNYC use data-driven insights to expand kiosks in underserved areas, 
 
 ## 5. Feature Engineering
 
-## 5. Feature Engineering
-
 ### Essential Features
 
 | Feature | Formula | Rationale |
@@ -78,24 +76,24 @@ How can LinkNYC use data-driven insights to expand kiosks in underserved areas, 
 
 ### Funnel Steps
 
-1. **Step 1:** Base — Unique clients per month  
-2. **Step 2:** Sessions by new users  
-3. **Step 3:** Total GB transferred  
-4. **Step 4:** GB per unique client  
+1. **Step 1:** Base amount of users for the month = 1
+2. **Step 2:** Increase in sessions from new users  
+3. **Step 3:** Increase in data transferred (GB) for sessions for that month  
+4. **Step 4:** increase in data transfer(GB) by number of unique clients  
 
 ### Key Metrics
 - Step-to-step conversion and overall GB per client computed monthly.  
 - Largest drop-off: between **sessions → total GB**, indicating limited deep engagement despite session growth.  
-- Funnel visualization saved to:
+- Funnel visualization:
 - <img width="265" height="245" alt="Screenshot 2025-10-19 at 1 43 14 PM" src="https://github.com/user-attachments/assets/e8f1d273-d317-4aba-bd7c-bbe49860d00e" /> 
 
 ---
 
-## 7. Cohorts & Retention Analysis
+## 7. Cohorts & Retention Analysis 
 - Cohorts built **quarterly**, tracking weeks within each cohort.  
 - Later cohorts (post-activation) show higher **average GB/session**, suggesting improving adoption over time.  
 - Retention measured via “heavy usage” recurrence at 1-week and 4-week intervals.  
-- Cohort heatmaps show gradual improvement in engagement depth rather than pure user count.
+- Cohort heatmaps show gradual improvement in engagement depth rather than pure user count. 
 <img width="630" height="342" alt="Screenshot 2025-10-19 at 1 45 03 PM" src="https://github.com/user-attachments/assets/d2e1da75-f003-4849-a7ab-21db7191e314" />
 
 ---
