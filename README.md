@@ -72,8 +72,8 @@ How can LinkNYC use data-driven insights to expand kiosks in underserved areas, 
 ### Key Metrics
 - Step-to-step conversion and overall GB per client computed monthly.  
 - Largest drop-off: between **sessions → total GB**, indicating limited deep engagement despite session growth.  
-- Funnel visualization saved to:  
-  `/images/linknyc_funnel_latest_month.png`  
+- Funnel visualization saved to:
+- <img width="265" height="245" alt="Screenshot 2025-10-19 at 1 43 14 PM" src="https://github.com/user-attachments/assets/e8f1d273-d317-4aba-bd7c-bbe49860d00e" /> 
 
 ---
 
