@@ -1,5 +1,5 @@
 # 🗽 LinkNYC Kiosk Equity & Usage Analysis
-
+##### By: Thomas Segal, Adebola Odutola, & Angel Bautista
 ## 1. Overview & Business Question
 **Business Problem:**  
 LinkNYC’s kiosks are concentrated in high-traffic, higher-income areas, leaving low-income neighborhoods underserved. This uneven distribution widens New York City’s digital divide and limits equitable access to free Wi-Fi.  
